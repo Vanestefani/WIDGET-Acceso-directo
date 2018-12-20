@@ -42,22 +42,173 @@ public class Dock extends javax.swing.JDialog {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        Trelloname = new javax.swing.JLabel();
+        Trelloname9 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        Trelloname8 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        Trelloname7 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        Trelloname6 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        Trelloname5 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        Trelloname4 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        Trelloname3 = new javax.swing.JLabel();
         Trelloname2 = new javax.swing.JLabel();
         Trello = new javax.swing.JLabel();
-        Trelloname = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         Trelloname1 = new javax.swing.JLabel();
         fondo = new javax.swing.JLabel();
+
+        Trelloname.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
+        Trelloname.setForeground(new java.awt.Color(255, 255, 255));
+        Trelloname.setText("Trello");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setUndecorated(true);
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        Trelloname9.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
+        Trelloname9.setForeground(new java.awt.Color(255, 255, 255));
+        Trelloname9.setText("Visual");
+        getContentPane().add(Trelloname9, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 40, 50, 30));
+
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/visual off.png"))); // NOI18N
+        jLabel9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel9MouseClicked(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jLabel9MousePressed(evt);
+            }
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                jLabel9MouseReleased(evt);
+            }
+        });
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 10, 50, 40));
+
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/google_fonts_off.png"))); // NOI18N
+        jLabel8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel8MouseClicked(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jLabel8MousePressed(evt);
+            }
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                jLabel8MouseReleased(evt);
+            }
+        });
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 10, 50, 40));
+
+        Trelloname8.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
+        Trelloname8.setForeground(new java.awt.Color(255, 255, 255));
+        Trelloname8.setText("Fonts");
+        getContentPane().add(Trelloname8, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 40, 40, 30));
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/awesome_off.png"))); // NOI18N
+        jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel7MouseClicked(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jLabel7MousePressed(evt);
+            }
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                jLabel7MouseReleased(evt);
+            }
+        });
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 10, 50, 30));
+
+        Trelloname7.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
+        Trelloname7.setForeground(new java.awt.Color(255, 255, 255));
+        Trelloname7.setText("Awesome");
+        getContentPane().add(Trelloname7, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 40, 70, 30));
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ushoff.png"))); // NOI18N
+        jLabel6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel6MouseClicked(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jLabel6MousePressed(evt);
+            }
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                jLabel6MouseReleased(evt);
+            }
+        });
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 10, 50, 40));
+
+        Trelloname6.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
+        Trelloname6.setForeground(new java.awt.Color(255, 255, 255));
+        Trelloname6.setText("UshPlash");
+        getContentPane().add(Trelloname6, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 40, 70, 30));
+
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/pixabay_off.png"))); // NOI18N
+        jLabel5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel5MouseClicked(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jLabel5MousePressed(evt);
+            }
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                jLabel5MouseReleased(evt);
+            }
+        });
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 10, 50, 40));
+
+        Trelloname5.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
+        Trelloname5.setForeground(new java.awt.Color(255, 255, 255));
+        Trelloname5.setText("Pixabay");
+        getContentPane().add(Trelloname5, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 40, 70, 30));
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Gitlab_off.png"))); // NOI18N
+        jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel4MouseClicked(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jLabel4MousePressed(evt);
+            }
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                jLabel4MouseReleased(evt);
+            }
+        });
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 10, 50, 40));
+
+        Trelloname4.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
+        Trelloname4.setForeground(new java.awt.Color(255, 255, 255));
+        Trelloname4.setText("GitLab");
+        getContentPane().add(Trelloname4, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 40, 70, 30));
+
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/GitHubr_onf.png"))); // NOI18N
+        jLabel3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel3MouseClicked(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jLabel3MousePressed(evt);
+            }
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                jLabel3MouseReleased(evt);
+            }
+        });
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, 50, 40));
+
+        Trelloname3.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
+        Trelloname3.setForeground(new java.awt.Color(255, 255, 255));
+        Trelloname3.setText("GitHub");
+        getContentPane().add(Trelloname3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 70, 30));
+
         Trelloname2.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
         Trelloname2.setForeground(new java.awt.Color(255, 255, 255));
         Trelloname2.setText("ColorHut");
-        getContentPane().add(Trelloname2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 40, 70, 30));
+        getContentPane().add(Trelloname2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 40, 70, 30));
 
         Trello.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/trello_off.png"))); // NOI18N
         Trello.setText("jLabel1");
@@ -72,21 +223,27 @@ public class Dock extends javax.swing.JDialog {
                 TrelloMouseReleased(evt);
             }
         });
-        getContentPane().add(Trello, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 50, 40));
-
-        Trelloname.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
-        Trelloname.setForeground(new java.awt.Color(255, 255, 255));
-        Trelloname.setText("Trello");
-        getContentPane().add(Trelloname, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, 40, 30));
+        getContentPane().add(Trello, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 50, 40));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Colorhut_off.png"))); // NOI18N
         jLabel2.setText("jLabel1");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, 50, 40));
+        jLabel2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel2MouseClicked(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jLabel2MousePressed(evt);
+            }
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                jLabel2MouseReleased(evt);
+            }
+        });
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, 50, 40));
 
         Trelloname1.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
         Trelloname1.setForeground(new java.awt.Color(255, 255, 255));
         Trelloname1.setText("Trello");
-        getContentPane().add(Trelloname1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, 40, 30));
+        getContentPane().add(Trelloname1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 40, 30));
 
         fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/background.png"))); // NOI18N
         fondo.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
@@ -133,6 +290,154 @@ this.setLocation(x-xMouse,y-yMouse);
         JOptionPane.showMessageDialog(this, ex);
         }
     }//GEN-LAST:event_TrelloMouseClicked
+
+    private void jLabel2MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MousePressed
+       ImageIcon Tr =new ImageIcon(getClass().getResource("/Imagenes/Colorhut_on.png"));    
+jLabel2.setIcon(Tr);
+    }//GEN-LAST:event_jLabel2MousePressed
+
+    private void jLabel2MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseReleased
+           ImageIcon Tr =new ImageIcon(getClass().getResource("/Imagenes/Colorhut_off.png"));    
+jLabel2.setIcon(Tr);
+    }//GEN-LAST:event_jLabel2MouseReleased
+
+    private void jLabel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseClicked
+         try {
+            Desktop.getDesktop().browse(URI.create("https://colorhunt.co"));
+        } catch (IOException ex) {
+        JOptionPane.showMessageDialog(this, ex);
+        }
+    }//GEN-LAST:event_jLabel2MouseClicked
+
+    private void jLabel3MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel3MousePressed
+          ImageIcon Tr =new ImageIcon(getClass().getResource("/Imagenes/GitHubr_onf.png"));    
+jLabel3.setIcon(Tr);
+    }//GEN-LAST:event_jLabel3MousePressed
+
+    private void jLabel3MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel3MouseReleased
+          ImageIcon Tr =new ImageIcon(getClass().getResource("/Imagenes/GitHubr_off.png"));    
+jLabel3.setIcon(Tr);
+    }//GEN-LAST:event_jLabel3MouseReleased
+
+    private void jLabel3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel3MouseClicked
+        try {
+            Desktop.getDesktop().browse(URI.create("https://github.com/"));
+        } catch (IOException ex) {
+        JOptionPane.showMessageDialog(this, ex);
+        }
+    }//GEN-LAST:event_jLabel3MouseClicked
+
+    private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
+           try {
+            Desktop.getDesktop().browse(URI.create("https://gitlab.com"));
+        } catch (IOException ex) {
+        JOptionPane.showMessageDialog(this, ex);
+        }
+    }//GEN-LAST:event_jLabel4MouseClicked
+
+    private void jLabel4MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MousePressed
+     ImageIcon Tr =new ImageIcon(getClass().getResource("/Imagenes/gITLAB_on.png"));    
+jLabel4.setIcon(Tr);
+    }//GEN-LAST:event_jLabel4MousePressed
+
+    private void jLabel4MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseReleased
+        ImageIcon Tr =new ImageIcon(getClass().getResource("/Imagenes/Gitlab_off.png"));    
+jLabel4.setIcon(Tr);
+    }//GEN-LAST:event_jLabel4MouseReleased
+
+    private void jLabel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MouseClicked
+            try {
+            Desktop.getDesktop().browse(URI.create("https://pixabay.com/"));
+        } catch (IOException ex) {
+        JOptionPane.showMessageDialog(this, ex);
+        }
+    }//GEN-LAST:event_jLabel5MouseClicked
+
+    private void jLabel5MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MousePressed
+         ImageIcon Tr =new ImageIcon(getClass().getResource("/Imagenes/pixabay_on.png"));    
+jLabel5.setIcon(Tr);
+    }//GEN-LAST:event_jLabel5MousePressed
+
+    private void jLabel5MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MouseReleased
+        ImageIcon Tr =new ImageIcon(getClass().getResource("/Imagenes/pixabay_off.png"));    
+jLabel5.setIcon(Tr);
+    }//GEN-LAST:event_jLabel5MouseReleased
+
+    private void jLabel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MouseClicked
+                  try {
+            Desktop.getDesktop().browse(URI.create("https://unsplash.com"));
+        } catch (IOException ex) {
+        JOptionPane.showMessageDialog(this, ex);
+        }
+    }//GEN-LAST:event_jLabel6MouseClicked
+
+    private void jLabel6MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MousePressed
+             ImageIcon Tr =new ImageIcon(getClass().getResource("/Imagenes/Ushon.png"));    
+jLabel6.setIcon(Tr);
+    }//GEN-LAST:event_jLabel6MousePressed
+
+    private void jLabel6MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MouseReleased
+           ImageIcon Tr =new ImageIcon(getClass().getResource("/Imagenes/Ushoff.png"));    
+jLabel6.setIcon(Tr);
+    }//GEN-LAST:event_jLabel6MouseReleased
+
+    private void jLabel7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel7MouseClicked
+                try {
+            Desktop.getDesktop().browse(URI.create("https://fontawesome.com/"));
+        } catch (IOException ex) {
+        JOptionPane.showMessageDialog(this, ex);
+        }
+    }//GEN-LAST:event_jLabel7MouseClicked
+
+    private void jLabel7MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel7MousePressed
+               ImageIcon Tr =new ImageIcon(getClass().getResource("/Imagenes/awesome_onf.png"));    
+jLabel7.setIcon(Tr);
+    }//GEN-LAST:event_jLabel7MousePressed
+
+    private void jLabel7MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel7MouseReleased
+             ImageIcon Tr =new ImageIcon(getClass().getResource("/Imagenes/awesome_off.png"));    
+jLabel7.setIcon(Tr);
+    }//GEN-LAST:event_jLabel7MouseReleased
+
+    private void jLabel8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel8MouseClicked
+                try {
+            Desktop.getDesktop().browse(URI.create("https://fonts.google.com/"));
+        } catch (IOException ex) {
+        JOptionPane.showMessageDialog(this, ex);
+        }
+    }//GEN-LAST:event_jLabel8MouseClicked
+
+    private void jLabel8MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel8MousePressed
+                   ImageIcon Tr =new ImageIcon(getClass().getResource("/Imagenes/google_fonts_on.png"));    
+jLabel8.setIcon(Tr);
+    }//GEN-LAST:event_jLabel8MousePressed
+
+    private void jLabel8MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel8MouseReleased
+                ImageIcon Tr =new ImageIcon(getClass().getResource("/Imagenes/google_fonts_off.png"));    
+jLabel8.setIcon(Tr);
+    }//GEN-LAST:event_jLabel8MouseReleased
+
+    private void jLabel9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel9MouseClicked
+             try {
+         Runtime RU=Runtime.getRuntime();
+         Process p=RU.exec("D:\\Microsoft VS Code\\Code.exe");
+         p.waitFor();
+        } catch (IOException ex) {
+        JOptionPane.showMessageDialog(this, ex);
+        } catch (InterruptedException ex) {
+            Logger.getLogger(Dock.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }//GEN-LAST:event_jLabel9MouseClicked
+
+    private void jLabel9MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel9MousePressed
+                         ImageIcon Tr =new ImageIcon(getClass().getResource("/Imagenes/visual on.png"));    
+jLabel9.setIcon(Tr);
+    }//GEN-LAST:event_jLabel9MousePressed
+
+    private void jLabel9MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel9MouseReleased
+                   ImageIcon Tr =new ImageIcon(getClass().getResource("/Imagenes/visual off.png"));    
+jLabel9.setIcon(Tr);
+    }//GEN-LAST:event_jLabel9MouseReleased
 
     /**
      * @param args the command line arguments
@@ -181,7 +486,21 @@ this.setLocation(x-xMouse,y-yMouse);
     private javax.swing.JLabel Trelloname;
     private javax.swing.JLabel Trelloname1;
     private javax.swing.JLabel Trelloname2;
+    private javax.swing.JLabel Trelloname3;
+    private javax.swing.JLabel Trelloname4;
+    private javax.swing.JLabel Trelloname5;
+    private javax.swing.JLabel Trelloname6;
+    private javax.swing.JLabel Trelloname7;
+    private javax.swing.JLabel Trelloname8;
+    private javax.swing.JLabel Trelloname9;
     private javax.swing.JLabel fondo;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     // End of variables declaration//GEN-END:variables
 }
